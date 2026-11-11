@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+  <!-- Primary Meta -->
+  <title>Find Aura — Viral Tech & Everyday Finds | Affiliate Deals</title>
+  <meta name="description" content="Discover viral tech gadgets and everyday finds from Instagram Reels. Enter the product number from the video and get the affiliate link instantly." />
+  <meta name="theme-color" content="#090A0F" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://findaura.org/" />
+
+  <!-- Open Graph / Instagram -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://findaura.org/" />
+  <meta property="og:title" content="Find Aura — Viral Tech & Everyday Finds" />
+  <meta property="og:description" content="Enter the product number from the Instagram video and get the link instantly. Curated viral tech and everyday finds." />
+  <meta property="og:image" content="https://findaura.org/assets/og-image.png" />
+  <meta property="og:site_name" content="Find Aura" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Find Aura — Viral Tech & Everyday Finds" />
+  <meta name="twitter:description" content="Enter the product number from the video and get the affiliate link instantly." />
+  <meta name="twitter:image" content="https://findaura.org/assets/og-image.png" />
+
+  <!-- PWA / Mobile -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Find Aura" />
+  <meta name="mobile-web-app-capable" content="yes" />
+
+  <!-- Favicon placeholder (replace with real assets) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>" />
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/styles.css" />
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Find Aura",
+    "url": "https://findaura.org",
+    "description": "Viral tech and everyday finds with affiliate links from Instagram Reels",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://findaura.org/?id={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <!-- App shell: rendered by app.js -->
+  <div id="app" role="application" aria-label="Find Aura product discovery">
+    <!-- Initial no-JS fallback / pre-render placeholder -->
+    <noscript>
+      <div style="text-align:center;padding:60px 20px;color:#F1F3F9;font-family:system-ui,sans-serif;background:#090A0F;min-height:100vh">
+        <h1 style="font-size:28px;margin-bottom:12px">Find Aura ✨</h1>
+        <p style="color:#6B7280;max-width:320px;margin:0 auto">
+          Please enable JavaScript to browse products on Find Aura.
+        </p>
+      </div>
+    </noscript>
+  </div>
+
+  <!-- App Script — deferred so the HTML renders first -->
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
+
